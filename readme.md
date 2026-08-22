@@ -385,7 +385,7 @@ ndnx wd
 ```
 
 `dnx` always goes through the SDK. `ndnx` starts the cached AOT binary
-directly — no SDK needed at all. Pin a version (`wd@1.0.0`)
+directly — no SDK after the first download. Pin a version (`wd@1.0.0`)
 to skip latest-version lookup.
 
 To install a `wd` command on PATH instead:
